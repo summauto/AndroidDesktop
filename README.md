@@ -18,6 +18,8 @@ Turning my Samsung S21 Ultra into my Desktop
 	2. Repo for `game-packages-24` and `science-packages-24` are down.
 		1. [They](https://github.com/termux/termux-packages/issues/6693) are recommending to change repo with `termux-change-repo`. (Use your mouse to select, not the arrow keys)
 			2. **I selected the albatross mirror and it works**
+#### VSCode from Termux
+1. Lets get vscode. https://dev.to/codeledger/how-to-get-visual-studio-code-to-run-in-termux-on-android-405j 
 
 ### Ubuntu + xfce4 (via VNC)
 3. Tried to run an Ubuntu GUI on it, keeps crashing
