@@ -16,7 +16,7 @@ Turning my Samsung S21 Ultra into my Desktop
 
 ### Ubuntu + xfce4 (via VNC)
 3. Tried to run an Ubuntu GUI on it, keeps crashing
-    1. [try to get the logs](https://wiki.termux.com/wiki/Recover_a_broken_environment)
+	1. [try to get the logs](https://wiki.termux.com/wiki/Recover_a_broken_environment)
     2. [could it be proot's problem?](https://github.com/termux/proot/issues/46)
     3. [another proot issue](https://github.com/termux/proot/issues/139) 
 
@@ -38,6 +38,10 @@ Turning my Samsung S21 Ultra into my Desktop
 1. also has a client-server protocol
 2. Remote Desktop Manager is only a client UI to help you log in to several servers at once (and manage them)
 3. Does this allow key mappings? Vnc, teamviewer all don’t, but I rmb “Remote desktop connection” did allow that.
+	1. You just do the mapping on Windows itself (using PowerToys > Keyboard Manager). Currently i've mapped these:
+		1. Alt+1 --> Alt+Tab
+		2. Alt+4 --> Alt+F4
+		3. Shift+W --> Win
 
 ### Teamviewer still in the lead
 1. Also, i can’t use keyboard shortcuts here. They keep sending them to the android environment. Online asks me to set it in “Actions”, but this tab only exists for native desktop clients. This Dex only has the limited android menu.
