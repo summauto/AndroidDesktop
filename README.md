@@ -7,6 +7,21 @@ Turning my Samsung S21 Ultra into my Desktop
 ## chrome
 1. I set "request desktop site" under chrome://flags". What im thinking is that i shd set my phone screen to a low resolution then my Dex resolution to high. So that it'll default to desktop site on Dex only.
 
+# Running a terminal in android
+## termux
+1. uses proot, doesn't need root access to the phone so banking apps are not affected.
+2. Can i get the same accessibility as ubuntu with termux? 
+3. Try directly using termux, and just xfce4 as a UI.
+    1. <mark>https://wiki.termux.com/wiki/Graphical_Environment</mark>
+
+## Ubuntu + xfce4 (via VNC)
+3. Tried to run an Ubuntu GUI on it, keeps crashing
+    1. [try to get the logs](https://wiki.termux.com/wiki/Recover_a_broken_environment)
+    2. [could it be proot's problem?](https://github.com/termux/proot/issues/46)
+    3. [another proot issue](https://github.com/termux/proot/issues/139) 
+
+```saved these links for viewing another time. gotta go work now```
+
 # Best Remote Desktop Solution
 ## Remote Desktop Protocol (RDP) - Microsoft Remote Desktop
 1. also has a client-server protocol
@@ -21,9 +36,9 @@ Turning my Samsung S21 Ultra into my Desktop
             1. https://www.itechtics.com/enable-gpedit-windows-10-home/ 
             2. There is no Local Group Policy Editor for Windows 10 Home. Use regedit instead.
             3. No, use ˋmmcˋ > `IP Security Policies on Local Computerˋ
-            4. I am able to access group policy with Policy Plus
+            4. <mark>I am able to access group policy with Policy Plus</mark>
         2. Enabled "Use hardware default graphics adapter for all Remote 
-            1. IT WORKS!
+            1. <mark>IT WORKS!</mark>
 2. Also, i can’t use keyboard shortcuts here. They keep sending them to the android environment. Online asks me to set it in “Actions”, but this tab only exists for native desktop clients. This Dex only has the limited android menu.
 3. By setting Teamviewer to “Start Teamviewer with Windows” and “Grant easy access”, I can restart my server computer and straight away gain remote access!
 4. However, vulnerable to exploits. https://www.secpod.com/blog/high-risk-vulnerability-in-teamviewer-could-be-exploited-to-crack-users-password/ 
