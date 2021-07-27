@@ -13,6 +13,8 @@ Turning my Samsung S21 Ultra into my Desktop
 2. Can i get the same accessibility as ubuntu with termux? 
 3. Try directly using termux, and just xfce4 as a UI.
     1. <mark>https://wiki.termux.com/wiki/Graphical_Environment</mark>
+4. `pkg update` doesn't work, I get 403 Forbidden. This is because the sources are down.
+	1. [They](https://github.com/termux/termux-packages/issues/4358) say just add to the ignore list and carry on.
 
 ### Ubuntu + xfce4 (via VNC)
 3. Tried to run an Ubuntu GUI on it, keeps crashing
