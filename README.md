@@ -15,6 +15,9 @@ Turning my Samsung S21 Ultra into my Desktop
     1. <mark>https://wiki.termux.com/wiki/Graphical_Environment</mark>
 4. `pkg update` doesn't work, I get 403 Forbidden. This is because the sources are down.
 	1. [They](https://github.com/termux/termux-packages/issues/4358) say just add to the ignore list and carry on.
+	2. Repo for `game-packages-24` and `science-packages-24` are down.
+		1. They are recommending to change repo with `termux-change-repo`. (Use your mouse to select, not the arrow keys)
+			2. **I selected the albatross mirror and it works**
 
 ### Ubuntu + xfce4 (via VNC)
 3. Tried to run an Ubuntu GUI on it, keeps crashing
