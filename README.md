@@ -20,6 +20,8 @@ Turning my Samsung S21 Ultra into my Desktop
 			2. **I selected the albatross mirror and it works**
 #### VSCode from Termux
 1. Lets get vscode. https://dev.to/codeledger/how-to-get-visual-studio-code-to-run-in-termux-on-android-405j 
+2. Actually, vim can be quite a good editor with syntax highlighting and linting.
+	1. https://levelup.gitconnected.com/tweak-your-vim-as-a-powerful-ide-fcea5f7eff9c
 
 ### Ubuntu + xfce4 (via VNC)
 3. Tried to run an Ubuntu GUI on it, keeps crashing
